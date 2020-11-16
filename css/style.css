@@ -6,7 +6,8 @@
 .menu ul li{
     text-decoration: none;
     list-style: none;
-    
+    display: block;
+    position: relative;
 }
 
 .menu ul li a:hover {
@@ -24,10 +25,15 @@ a {
 
 .sobre {
     color: blueviolet;
+
+}
+h1 {
+    padding: 10px;    
 }
 
-.formulario {
+.formulario form{
     background: aqua;
+    border-radius: 10px;
 }
 footer {
     display: grid;
