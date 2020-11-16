@@ -18,13 +18,12 @@ a {
 }
 
 .conteudo {
-    background: red;
     text-align: justify;
 
 }
 
 .sobre {
-    color: blueviolet;
+    
 
 }
 h1 {
@@ -32,12 +31,12 @@ h1 {
 }
 
 .formulario form{
-    background: aqua;
+    
     border-radius: 10px;
 }
 footer {
     display: grid;
-    background: forestgreen;
+    justify-content: center;
     font-size: small;
 }
 footer h1 {
