@@ -16,6 +16,7 @@ html {
 .menu ul li a:hover {
     background: red;
 }
+
 a {
     display: block;
     text-decoration: none;
@@ -30,6 +31,7 @@ a {
     
 
 }
+
 h1 {
     padding: 10px;    
 }
@@ -38,14 +40,17 @@ h1 {
     
     border-radius: 10px;
 }
+
 footer {
     display: grid;
     justify-content: center;
     font-size: small;
 }
+
 footer h1 {
     font-size: medium;
 }
+
 footer ul li {
     list-style: none;
     
