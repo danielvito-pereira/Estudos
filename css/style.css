@@ -17,6 +17,7 @@ html {
     background: red;
 }
 a {
+    display: block;
     text-decoration: none;
 }
 
