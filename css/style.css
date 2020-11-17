@@ -5,10 +5,11 @@
 html {
     scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
 }
+
 .menu ul li{
+    display: inline-block;
     text-decoration: none;
     list-style: none;
-    display: block;
     position: relative;
 }
 
