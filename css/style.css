@@ -2,7 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 6px;
 }
-
+html {
+    scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
+}
 .menu ul li{
     text-decoration: none;
     list-style: none;
