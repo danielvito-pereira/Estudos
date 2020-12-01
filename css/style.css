@@ -1,10 +1,35 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
+
 html {
     scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
 }
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 1em;
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  h1{
+    font-size: 1.75em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.25em;
+  }
+  a{
+    font-size: 1em;
+    cursor: pointer;
+    user-select: none;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
 .menu ul  {
     margin-top: 0;
     text-align: right;
@@ -33,14 +58,49 @@ html {
     margin-bottom: 0;
 } 
 footer {
+    
     background-color: black;
     text-align: center;
 }
 footer ul {
+    
     list-style: none;
 }
 footer ul li {
+    
     color: whitesmoke;
     display: inline-block;
     padding: 15px;
 }
+footer ul li a {
+    text-decoration: none;
+}
+button{
+    
+    border: 1px solid #063642;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    /*margin: 10px 10px;*/
+    user-select: none;
+    cursor: pointer;
+  
+    background: -webkit-gradient(linear, left top, left bottom, from(#0a5c71), to(#063642));
+    background: -webkit-linear-gradient(top, #0a5c71 0%, #063642 100%);
+    background: -o-linear-gradient(top, #0a5c71 0%, #063642 100%);
+    background: linear-gradient(to bottom, #0a5c71 0%, #063642 100%);
+  
+    background-color: #0a5c71;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 1s;
+  }
+button:hover{
+    
+    background-position: 0 100px;
+    transition: background 1s;
+  }
