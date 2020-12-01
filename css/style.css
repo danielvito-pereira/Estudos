@@ -5,12 +5,18 @@ html {
     scroll-behavior: smooth; /*faz com que o botão de volta ao topo fique suavisada*/
 }
 .menu ul  {
-   display: block;
+   
     list-style: none;
 }
 .menu ul li {
     display: inline-block;
+    background-color: black;
+    padding: 10px;
+    border-radius: 45px;
 }
 .menu ul li a {
-list-style: none;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
 }
